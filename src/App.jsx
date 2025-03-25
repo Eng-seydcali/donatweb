@@ -1,5 +1,5 @@
 
-import HeroSection from "./components/HeroSection";
+
 import { Route, Routes } from "react-router-dom";
 import Home from "./assets/pages/Home";
 import About from "./assets/pages/About";
