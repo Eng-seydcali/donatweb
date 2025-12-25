@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
-import Header from '../../components/Header';
-import CartSidebar from '../../components/CartSidebar';
-import MobileMenu from '../../components/MobileMenu';
+import Header from '../components/Header';
+import CartSidebar from '../components/CartSidebar';
+import MobileMenu from '../components/MobileMenu';
 
-function Contact() {
- const [isCartOpen, setIsCartOpen] = useState(false);
+
+function About() {
+   const [isCartOpen, setIsCartOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <>
@@ -20,4 +21,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default About

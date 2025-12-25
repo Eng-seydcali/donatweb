@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
-import Header from '../../components/Header';
-import CartSidebar from '../../components/CartSidebar';
-import MobileMenu from '../../components/MobileMenu';
+import Header from '../components/Header';
+import CartSidebar from '../components/CartSidebar';
+import MobileMenu from '../components/MobileMenu';
+
 
 function Blog() {
   const [isCartOpen, setIsCartOpen] = useState(false);

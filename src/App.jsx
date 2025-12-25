@@ -1,12 +1,13 @@
 
 
 import { Route, Routes } from "react-router-dom";
-import Home from "./assets/pages/Home";
-import About from "./assets/pages/About";
-import Blog from "./assets/pages/Blog";
-import Contact from "./assets/pages/Contact";
-import Donations from "./assets/pages/Donations";
-import Pages from "./assets/pages/Pages";
+
+import About from "./pages/About";
+import Blog from "./pages/Blog";
+import Contact from "./pages/Contact";
+import Donations from "./pages/Donations";
+import Pages from "./pages/Pages";
+import Home from "./pages/Home";
 
 function App() {
   
